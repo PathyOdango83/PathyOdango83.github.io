@@ -1,0 +1,89 @@
+/* css code programming by patricia silva (odango girl)
+ css create in 2021-09-29  for  github site (odangogirl.github.io)
+*/
+
+ background{background-image:url(image/fundodetela.png);
+             color:#1a001a;
+      
+}
+
+#container{ background-color:none;
+             padding-left: 200px;
+             transparent:50%;
+             
+    
+    
+}
+
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+
+/*menu sector*/
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+margin-left:470px;
+margin-top: -30px;
+
+}
+
+.menu li{
+position:relative;
+float:inherit;
+border-right:2px solid #c0c0c0;
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.menu li a{color:#333; text-decoration:none; padding:6px 10px; display:block;}
+
+.menu li a:hover{
+background:#7B4B78;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+
+/* footer configuration*/
+footer{
+    margin-top: 100px;
+    margin-left: 300px;
+    
+    
+}
+
+.feet{
+    
+list-style:none;
+float:inherit;
+margin-left:100px;
+ 
+
+    
+}
+
+.feet li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+
+
+}
+
+.feet li a:hover{
+background:#7B4B78;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
